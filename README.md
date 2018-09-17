@@ -782,6 +782,7 @@ function getLength(o: {+p: ?string}): number {
 [TypeScript proposal](https://github.com/Microsoft/TypeScript/issues/10717)
 
 Bivariance is among [the design decisions](https://github.com/Microsoft/TypeScript/wiki/FAQ#why-are-function-parameters-bivariant) driving TypeScript.
+Can be turned off for standalone functions with flag `--strictFunctionTypes` since [Typescript 2.6](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-6.html).
 
 ## Useful References
 
